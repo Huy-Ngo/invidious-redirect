@@ -33,8 +33,6 @@ function getInstance() {
 
 /* Redirect to one of the instance. */
 function redirect(link) {
-	console.log(link);
-	console.log(strip(link));
 	window.location.href = getInstance() + strip(link);
 }
 
