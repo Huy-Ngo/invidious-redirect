@@ -50,3 +50,9 @@ instances.forEach(instance => {
 submit.onclick = function() {
 	redirect(url.value)
 }
+
+window.onload = function () {
+	if (strip(window.location.href) !== "") {
+		redirect(window.location.href)
+	}
+}
