@@ -17,7 +17,6 @@
  * along with invidious-redirect.  If not, see <https://www.gnu.org/licenses/>.
  * */
 
-
 /* Strip the domain name and get only the parameters. */
 function strip(url) {
 	// RegEx: [^/]*$
